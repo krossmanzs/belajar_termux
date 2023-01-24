@@ -1,0 +1,56 @@
+{
+  "id": 0,
+  "name": "Netdiscover",
+  "source": "https://github.com/alexxy/netdiscover",
+  "image": "assets/images/netdiscover.jpg",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install git, make, cmake",
+      "command": "apt install git make cmake"
+    },
+    {
+      "desc": "get package",
+      "command": "git clone https://github.com/alexxy/netdiscover"
+    },
+    {
+      "desc": "build tools dan install",
+      "command": "cmake ."
+    },
+    {
+      "command": "make"
+    },
+    {
+      "command": "make install"
+    }
+  ],
+  "how_to_use": {
+    "desc": "",
+    "commands": [
+      {
+        "desc": "Scan alamat address",
+        "command": "netdiscover -i eth0"
+      },
+      {
+        "desc": "Fast scan common lan addresses on eth0 (search only for gateways)",
+        "command": "netdiscover -i eth0 -f"
+      },
+      {
+        "desc": "Scan some fixed ranges",
+        "command": "netdiscover -i eth0 172.26.0.0/24"
+      },
+      {
+        "command": "netdiscover -i eth0 192.168.0.0/16"
+      },
+      {
+        "command": "netdiscover -i eth0 10.0.0.0/8"
+      }
+    ]
+  },
+  "desc": "Netdiscover adalah penemuan alamat jaringan alat, dikembangkan terutama untuk jaringan nirkabel tanpa server dhcp, itu juga berfungsi pada jaringan hub/switched. Ini berdasarkan paket arp, itu akan mengirim arp permintaan dan mengendus untuk balasan.",
+  "documentation": "https://github.com/alexxy/netdiscover",
+  "tags": ["pemula"]
+}
