@@ -1,0 +1,36 @@
+{
+  "id": 13,
+  "name": "metasploit",
+  "source": "https://github.com/Hax4us/Metasploit_termux",
+  "image": "assets/images/metasploit.png",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install wget",
+      "command": "apt install wget"
+    },
+    {
+      "desc": "mengunduh installer",
+      "command": "wget https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh      "
+    },
+    {
+      "desc": "Menginstall metasploit",
+      "command": "chmod +x metasploit.sh && ./metasploit.sh"
+    }
+  ],
+  "how_to_use": {
+    "desc": "",
+    "commands": [
+      {
+        "desc": "menjalankan Metasploit",
+        "command": "./metasploit.sh"
+      }
+    ]
+  },
+  "desc": "Proyek Metasploit adalah proyek keamanan komputer yang memberikan informasi tentang kerentanan keamanan dan bantuan dalam pengujian penetrasi dan pengembangan tanda tangan IDS. Itu dimiliki oleh perusahaan keamanan Rapid7 yang berbasis di Boston, Massachusetts.  ",
+  "documentation": "https://github.com/Hax4us/Metasploit_termux",
+  "tags": ["Medium"]
+}

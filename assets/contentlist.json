@@ -1,8 +1,21 @@
 {
+  "termux": "assets/contents/termux.json",
   "netdiscover": "assets/contents/netdiscover.json",
   "ipdrone": "assets/contents/ipdrone.json",
   "lazymux": "assets/contents/lazymux.json",
   "nmap": "assets/contents/nmap.json",
   "sqlmap": "assets/contents/sqlmap.json",
-  "toolx": "assets/contents/toolx.json"
+  "androspy": "assets/contents/androspy.json",
+  "atscan": "assets/contents/atscan.json",
+  "nethunter": "assets/contents/nethunter.json",
+  "toolx": "assets/contents/toolx.json",
+  "alphine": "assets/contents/alphine.json",
+  "arch": "assets/contents/arch.json",
+  "kalilinux": "assets/contents/kalilinux.json",
+  "metasploit": "assets/contents/metasploit.json",
+  "react": "assets/contents/react.json",
+  "routersploit": "assets/contents/routersploit.json",
+  "socialbox": "assets/contents/socialbox.json",
+  "ubuntu": "assets/contents/ubuntu.json",
+  "termuxblack": "assets/contents/termuxblack.json"
 }

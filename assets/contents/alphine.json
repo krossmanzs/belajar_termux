@@ -1,0 +1,40 @@
+{
+  "id": 12,
+  "name": "Alphine",
+  "source": "https://github.com/Hax4us/TermuxAlpine",
+  "image": "assets/images/alphine.png",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install curl",
+      "command": "apt install curl"
+    },
+    {
+      "desc": "mengunduh installer",
+      "command": "curl -LO https://raw.githubusercontent.com/Hax4us/TermuxAlpine/master/TermuxAlpine.sh"
+    },
+    {
+      "desc": "Menginstall arch",
+      "command": "bash TermuxAlpine.sh"
+    }
+  ],
+  "how_to_use": {
+    "desc": "",
+    "commands": [
+      {
+        "desc": "menjalankan Aplhine linux",
+        "command": "startalpine"
+      },
+      {
+        "desc": "keluar dari Aplhine linux",
+        "command": "exit"
+      }
+    ]
+  },
+  "desc": "Alpine Linux adalah distribusi Linux yang dirancang kecil, sederhana, dan aman. Alpine Linux menggunakan musl, BusyBox dan OpenRC daripada glibc yang lebih umum digunakan, GNU Core Utilities dan systemd.  ",
+  "documentation": "https://github.com/Hax4us/TermuxAlpine",
+  "tags": ["linux"]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 15,
+  "name": "SocialBox",
+  "source": "https://github.com/samsesh/SocialBox-Termux",
+  "image": "assets/images/socialbox.png",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install git",
+      "command": "apt install git"
+    },
+    {
+      "desc": "cloning dari github",
+      "command": "git clone https://github.com/samsesh/SocialBox-Termux.git"
+    },
+    {
+      "desc": "masuk folder SocialBox-Termux",
+      "command": "cd SocialBox-Termux"
+    },
+    {
+      "desc": "memberi permission",
+      "command": "chmod +x install-sb.sh"
+    },
+    {
+      "desc": "install socialbox",
+      "command": "./install-sb.sh"
+    }
+  ],
+  "how_to_use": {
+    "desc": "",
+    "commands": [
+      {
+        "desc": "menjalankan socialbox",
+        "command": "./SocialBox.sh        "
+      }
+    ]
+  },
+  "desc": "SocialBox adalah Kerangka Serangan Bruteforce [ Facebook , Gmail , Instagram , Twitter ] , Dikodekan Oleh Belahsan Ouerghi Edit Oleh samsesh",
+  "documentation": "https://github.com/samsesh/SocialBox-Termux",
+  "tags": ["pemula"]
+}

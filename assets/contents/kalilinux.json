@@ -1,0 +1,36 @@
+{
+  "id": 16,
+  "name": "Kali linux",
+  "source": "https://github.com/MasterDevX/Termux-Kali",
+  "image": "assets/images/kalilinux.png",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install wget dan proot",
+      "command": "apt install wget proot -y"
+    },
+    {
+      "desc": "mengunduh installer",
+      "command": "wget https://raw.githubusercontent.com/MasterDevX/KaliTermux/master/InstallKali.sh"
+    },
+    {
+      "desc": "Menginstall kali linux",
+      "command": "bash InstallKali.sh"
+    }
+  ],
+  "how_to_use": {
+    "desc": "",
+    "commands": [
+      {
+        "desc": "menjalankan kali linux",
+        "command": "./start-kali.sh"
+      }
+    ]
+  },
+  "desc": "Kali Linux adalah distribusi Linux turunan Debian yang dirancang untuk forensik digital dan pengujian penetrasi. Itu dikelola dan didanai oleh Keamanan Ofensif  ",
+  "documentation": "https://github.com/MasterDevX/Termux-Kali",
+  "tags": ["linux"]
+}

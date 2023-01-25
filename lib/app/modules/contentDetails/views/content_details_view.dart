@@ -2,6 +2,7 @@ import 'package:belajar_termux/app/modules/contentDetails/views/content_descript
 import 'package:belajar_termux/app/modules/contentDetails/views/content_how_to_use_view.dart';
 import 'package:belajar_termux/app/modules/contentDetails/views/content_image_view.dart';
 import 'package:belajar_termux/app/modules/contentDetails/views/content_install_view.dart';
+import 'package:belajar_termux/app/modules/contentDetails/views/documentation_view.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -42,7 +43,10 @@ class ContentDetailsView extends GetView<ContentDetailsController> {
               const SizedBox(height: 20),
               ContentDescriptionView(),
               const SizedBox(height: 20),
-              ContentInstallView(),
+              if (controller
+                      .contentController.selectedContent.value.install!.length >
+                  0)
+                ContentInstallView(),
               const SizedBox(height: 10),
               FutureBuilder(
                 future: controller.adsController.bannerAds.load(),
@@ -61,7 +65,18 @@ class ContentDetailsView extends GetView<ContentDetailsController> {
                 },
               ),
               const SizedBox(height: 10),
-              ContentHowToUseView(),
+              if (controller.contentController.selectedContent.value.howToUse!
+                      .commands!.length >
+                  0)
+                ContentHowToUseView(),
+              const SizedBox(height: 20),
+              if (controller.contentController.selectedContent.value
+                          .documentation !=
+                      "" &&
+                  controller.contentController.selectedContent.value
+                          .documentation !=
+                      null)
+                DocumentationView(),
               const SizedBox(height: 20),
             ],
           ),

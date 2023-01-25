@@ -1,0 +1,36 @@
+{
+  "id": 11,
+  "name": "Arch",
+  "source": "https://github.com/SDRausty/TermuxArch",
+  "image": "assets/images/arch.jpg",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install wget",
+      "command": "apt install wget"
+    },
+    {
+      "desc": "mengunduh installer",
+      "command": "wget https://sdrausty.github.io/TermuxArch/setupTermuxArch.sh"
+    },
+    {
+      "desc": "Menginstall arch",
+      "command": "bash setupTermuxArch.sh"
+    }
+  ],
+  "how_to_use": {
+    "desc": "",
+    "commands": [
+      {
+        "desc": "menjalankan arch linux",
+        "command": "startarch"
+      }
+    ]
+  },
+  "desc": "Arch Linux adalah distribusi Linux tujuan umum x86-64 yang dikembangkan secara independen yang berusaha untuk menyediakan versi stabil terbaru dari sebagian besar perangkat lunak dengan mengikuti model peluncuran bergulir. Instalasi default adalah sistem dasar minimal, yang dikonfigurasi oleh pengguna untuk hanya menambahkan apa yang memang diperlukan.  ",
+  "documentation": "https://termuxarch.github.io/docsTermuxArch/",
+  "tags": ["linux"]
+}

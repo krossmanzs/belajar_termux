@@ -1,0 +1,40 @@
+{
+  "id": 14,
+  "name": "Termux Black",
+  "source": "https://github.com/Hax4us/TermuxBlack",
+  "image": "assets/images/termuxblack.jpg",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install wget",
+      "command": "apt install wget"
+    },
+    {
+      "desc": "mengunduh installer",
+      "command": "wget https://github.com/Hax4us/TermuxBlack/raw/master/install.sh      "
+    },
+    {
+      "desc": "Menginstall termux black",
+      "command": "bash install.sh"
+    }
+  ],
+  "how_to_use": {
+    "desc": "List package:\n1.beef-xss\n2.trape\n3.ssh-honeypot\n4.pdfcrack\n5.lemon\n6.apkmod\n7.haxRat\n8.msfpc\n9.apkmod2\n10.dreel\n11.xerosploit",
+    "commands": [
+      {
+        "desc": "menginstall package",
+        "command": "apt install pkg_name"
+      },
+      {
+        "desc": "uninstall termuxblack",
+        "command": "rm -f $PREFIX/etc/apt/sources.list.d/termuxblack.list && mv $PREFIX/etc/bash.bashrc.bk $PREFIX/etc/bash.bashrc && rm -f ~/.termux/colors.properties"
+      }
+    ]
+  },
+  "desc": "Termux black adalah repository yang dimaintenance oleh user github @hax4us",
+  "documentation": "https://github.com/Hax4us/TermuxBlack",
+  "tags": ["pemula"]
+}

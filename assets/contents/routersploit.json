@@ -1,0 +1,40 @@
+{
+  "id": 17,
+  "name": "RouterSploit",
+  "source": "https://github.com/pentestbr/RoutersploitTermux",
+  "image": "assets/images/routersploit.jpg",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install git dan figlet",
+      "command": "apt install git figlet -y"
+    },
+    {
+      "desc": "cloning dari github",
+      "command": "git clone https://github.com/41Team/RoutersploitTermux"
+    },
+    {
+      "desc": "masuk folder RoutersploitTermux",
+      "command": "cd RoutersploitTermux"
+    },
+    {
+      "desc": "install routersploit",
+      "command": "bash run.sh"
+    }
+  ],
+  "how_to_use": {
+    "desc": "",
+    "commands": [
+      {
+        "desc": "menjalankan routersploit",
+        "command": "cd routersploit and python rsf.py"
+      }
+    ]
+  },
+  "desc": "Kerangka Kerja RouterSploit adalah kerangka kerja eksploitasi sumber terbuka yang didedikasikan untuk perangkat yang disematkan.  ",
+  "documentation": "https://github.com/threat9/routersploit",
+  "tags": ["pemula"]
+}

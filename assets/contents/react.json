@@ -1,0 +1,39 @@
+{
+  "id": 18,
+  "name": "React Js",
+  "source": "https://reactjs.org/docs/getting-started.html",
+  "image": "assets/images/react.png",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install nodejs openssl-tool",
+      "command": "apt install nodejs openssl-tool -y"
+    },
+    {
+      "desc": "menghubungkan ke local storage [optional tapi disarankan untuk menyimpan project react js]",
+      "command": "termux-setup-storage"
+    }
+  ],
+  "how_to_use": {
+    "desc": "untuk belajar react silahkan kunjungi dokumentasi react di https://reactjs.org/docs",
+    "commands": [
+      {
+        "desc": "membuat project baru",
+        "command": "npx create-react-app [nama project]"
+      },
+      {
+        "desc": "menjalankan aplikasi react",
+        "command": "cd [nama project]"
+      },
+      {
+        "command": "npm start"
+      }
+    ]
+  },
+  "desc": "React adalah library JavaScript front-end sumber terbuka dan gratis untuk membangun antarmuka pengguna berdasarkan komponen UI. Itu dikelola oleh Meta dan komunitas pengembang dan perusahaan individu.  ",
+  "documentation": "https://reactjs.org/",
+  "tags": ["bahasa pemrograman"]
+}

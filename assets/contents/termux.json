@@ -1,0 +1,19 @@
+{
+  "id": 19,
+  "name": "Install Termux",
+  "source": "https://github.com/termux/termux-app",
+  "image": "assets/images/termux.jpeg",
+  "install": [
+    {
+      "desc": "link download. jangan sampai salah pilih, pilih tombol unduh apk bukan unduh f-droid!",
+      "command": "https://f-droid.org/id/packages/com.termux/index.html"
+    }
+  ],
+  "how_to_use": {
+    "desc": "",
+    "commands": []
+  },
+  "desc": "Termux adalah aplikasi terminal Android dan lingkungan Linux. Termux yang di playstore saat ini merupakan termux versi lama. Untuk mengunduh termux yang terbaru kita bisa mendownloadnya di F-droid ",
+  "documentation": "https://wiki.termux.com/wiki/Getting_started",
+  "tags": ["pemula"]
+}

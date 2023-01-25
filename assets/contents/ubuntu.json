@@ -1,6 +1,6 @@
 {
   "id": 10,
-  "name": "Netdiscover",
+  "name": "Ubuntu",
   "source": "https://github.com/MFDGaming/ubuntu-in-termux",
   "image": "assets/images/ubuntu.png",
   "install": [
@@ -40,5 +40,5 @@
   },
   "desc": "sebagian besar terdiri dari perangkat lunak bebas dan sumber terbuka. Ubuntu secara resmi dirilis dalam tiga edisi: Desktop, Server, dan Core untuk perangkat Internet of things dan robot. Semua edisi dapat dijalankan di komputer sendiri, atau di mesin virtual  .",
   "documentation": "https://github.com/MFDGaming/ubuntu-in-termux",
-  "tags": ["scanning"]
+  "tags": ["linux"]
 }
