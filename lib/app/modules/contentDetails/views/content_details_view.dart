@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import '../controllers/content_details_controller.dart';
 
@@ -42,7 +43,15 @@ class ContentDetailsView extends GetView<ContentDetailsController> {
               ContentDescriptionView(),
               const SizedBox(height: 20),
               ContentInstallView(),
-              const SizedBox(height: 20),
+              const SizedBox(height: 10),
+              Container(
+                alignment: Alignment.center,
+                child: AdWidget(ad: controller.adsController.bannerAds),
+                width: controller.adsController.bannerAds.size.width.toDouble(),
+                height:
+                    controller.adsController.bannerAds.size.height.toDouble(),
+              ),
+              const SizedBox(height: 10),
               ContentHowToUseView(),
               const SizedBox(height: 20),
             ],

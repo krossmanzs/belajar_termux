@@ -4,6 +4,10 @@
         android:label="belajar_termux"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+                <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2194300857224986~8757192921"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
