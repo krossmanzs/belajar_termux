@@ -1,0 +1,48 @@
+{
+  "id": 1,
+  "name": "Lazymux",
+  "source": "https://github.com/Gameye98/Lazymux",
+  "image": "assets/images/lazymux.png",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install git",
+      "command": "apt install git"
+    },
+    {
+      "desc": "get package",
+      "command": "git clone https://github.com/Gameye98/Lazymux"
+    },
+    {
+      "desc": "masuk folder Lazymux",
+      "command": "cd Lazymux ."
+    },
+    {
+      "desc": "Menjalankan lazymux",
+      "command": "python lazymux.py"
+    }
+  ],
+  "how_to_use": {
+    "desc": "perintah diatas digunakan ketika sudah menjalankan (python lazymux.py)",
+    "commands": [
+      {
+        "desc": "Install Single Tool",
+        "command": "set_install 1"
+      },
+      {
+        "desc": "Install Multi Tool",
+        "command": "set_install 1 2 3 4"
+      },
+      {
+        "desc": "Install All Tool",
+        "command": "set_install @"
+      }
+    ]
+  },
+  "desc": "Lazymux adalah alat yang membantu Anda menginstal dan menggunakan beberapa pengujian penetrasi dan alat peretasan pada sistem Android dengan mudah. Ini memungkinkan pengguna untuk dengan mudah menginstal dan menggunakan berbagai alat populer seperti Nmap, SQLMap, dan Metasploit. Alat ini mudah digunakan, karena Anda hanya perlu mengetikkan perintah untuk memasang dan menggunakan salah satu alat. Lazymux adalah proyek sumber terbuka dan dapat menjadi alat yang sangat membantu untuk pengujian penetrasi dan tugas peretasan etis.  ",
+  "documentation": "https://github.com/Gameye98/Lazymux",
+  "tags": ["pemula"]
+}

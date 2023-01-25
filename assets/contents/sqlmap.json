@@ -1,0 +1,44 @@
+{
+  "id": 3,
+  "name": "Sqlmap",
+  "source": "https://sangtopihitam.blogspot.com/2020/02/tutorial-install-sqlmap-dan-cara.html",
+  "image": "assets/images/sqlmap.jpg",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install git",
+      "command": "apt install git"
+    },
+    {
+      "desc": "install python2",
+      "command": "apt install python2"
+    },
+    {
+      "desc": "cloning sqlmap dari github",
+      "command": "git clone https://github.com/sqlmapproject/sqlmap"
+    },
+    {
+      "desc": "masuk folder sqlmap",
+      "command": "cd sqlmap"
+    },
+    {
+      "desc": "menjalankan sqlmap",
+      "command": "python2 sqlmap.py"
+    }
+  ],
+  "how_to_use": {
+    "desc": "",
+    "commands": [
+      {
+        "desc": "scan website",
+        "command": "python2 sqlmap.py \"situsanda.com/news.php?id=1\" [options]"
+      }
+    ]
+  },
+  "desc": "sqlmap adalah alat pengujian penetrasi sumber terbuka yang mengotomatiskan proses mendeteksi dan mengeksploitasi kelemahan injeksi SQL dan mengambil alih server basis data. Muncul dengan mesin pendeteksi yang kuat, banyak fitur khusus untuk penguji penetrasi terbaik, dan berbagai sakelar termasuk sidik jari basis data, pengambilan data dari basis data, mengakses sistem file yang mendasarinya, dan menjalankan perintah pada sistem operasi melalui out- koneksi of-band.  ",
+  "documentation": "https://github.com/sqlmapproject/sqlmap",
+  "tags": ["scanning"]
+}

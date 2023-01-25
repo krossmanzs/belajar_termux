@@ -1,0 +1,44 @@
+{
+  "id": 10,
+  "name": "Netdiscover",
+  "source": "https://github.com/MFDGaming/ubuntu-in-termux",
+  "image": "assets/images/ubuntu.png",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install git, wget, proot",
+      "command": "apt install git wget proot"
+    },
+    {
+      "desc": "get package",
+      "command": "git clone https://github.com/MFDGaming/ubuntu-in-termux.git"
+    },
+    {
+      "desc": "masuk folder ubuntu-in-termux",
+      "command": "cd ubuntu-in-termux"
+    },
+    {
+      "desc": "memberikan permission",
+      "command": "chmod +x ubuntu.sh"
+    },
+    {
+      "desc": "menginstall ubuntu",
+      "command": "/ubuntu.sh -y"
+    }
+  ],
+  "how_to_use": {
+    "desc": "",
+    "commands": [
+      {
+        "desc": "menjalankan ubuntu",
+        "command": "./startubuntu.sh"
+      }
+    ]
+  },
+  "desc": "sebagian besar terdiri dari perangkat lunak bebas dan sumber terbuka. Ubuntu secara resmi dirilis dalam tiga edisi: Desktop, Server, dan Core untuk perangkat Internet of things dan robot. Semua edisi dapat dijalankan di komputer sendiri, atau di mesin virtual  .",
+  "documentation": "https://github.com/MFDGaming/ubuntu-in-termux",
+  "tags": ["scanning"]
+}

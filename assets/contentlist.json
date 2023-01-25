@@ -1,3 +1,8 @@
 {
-  "netdiscover": "assets/contents/netdiscover.json"
+  "netdiscover": "assets/contents/netdiscover.json",
+  "ipdrone": "assets/contents/ipdrone.json",
+  "lazymux": "assets/contents/lazymux.json",
+  "nmap": "assets/contents/nmap.json",
+  "sqlmap": "assets/contents/sqlmap.json",
+  "toolx": "assets/contents/toolx.json"
 }

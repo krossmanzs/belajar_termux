@@ -1,0 +1,36 @@
+{
+  "id": 2,
+  "name": "Nmap",
+  "source": "https://www.tembolok.id/cara-install-nmap-di-termux-android-tanpa-root/",
+  "image": "assets/images/nmap.jpg",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install nmap",
+      "command": "apt install nmap"
+    }
+  ],
+  "how_to_use": {
+    "desc": "",
+    "commands": [
+      {
+        "desc": "Scan port-port yang terbuka dari sebuah IP        ",
+        "command": "nmap <IP/HOST>"
+      },
+      {
+        "desc": "Menampilkan service yang sedang berjalan dan version-nya yang digunakan mesin target dari sebuah IP        ",
+        "command": "nmap -sV <IP/HOST>        "
+      },
+      {
+        "desc": "Digunakan untuk scanning dan detecting OS (dan versi OS) pada sebuah IP.        ",
+        "command": "nmap -O <IP/HOST>        "
+      }
+    ]
+  },
+  "desc": "NMAP adalah singkatan dari Network Mapper yang merupakan sebuah tool atau alat yang bersifat open source. Alat ini hanya digunakan secara khusus untuk eksplorasi jaringan serta melakukan audit terhadap keamanan dari jaringan.",
+  "documentation": "https://nmap.org/docs.html",
+  "tags": ["scanning"]
+}

@@ -44,12 +44,21 @@ class ContentDetailsView extends GetView<ContentDetailsController> {
               const SizedBox(height: 20),
               ContentInstallView(),
               const SizedBox(height: 10),
-              Container(
-                alignment: Alignment.center,
-                child: AdWidget(ad: controller.adsController.bannerAds),
-                width: controller.adsController.bannerAds.size.width.toDouble(),
-                height:
-                    controller.adsController.bannerAds.size.height.toDouble(),
+              FutureBuilder(
+                future: controller.adsController.bannerAds.load(),
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState == ConnectionState.done) {
+                    return Container(
+                      alignment: Alignment.center,
+                      width: controller.adsController.bannerAds.size.width
+                          .toDouble(),
+                      height: controller.adsController.bannerAds.size.height
+                          .toDouble(),
+                      child: AdWidget(ad: controller.adsController.bannerAds),
+                    );
+                  }
+                  return const SizedBox();
+                },
               ),
               const SizedBox(height: 10),
               ContentHowToUseView(),

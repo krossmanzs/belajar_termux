@@ -1,0 +1,47 @@
+{
+  "id": 4,
+  "name": "Ipdrone",
+  "source": "https://github.com/noob-hackers/ipdrone",
+  "image": "assets/images/ipdrone.jpg",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install git dan python",
+      "command": "apt install git python python2"
+    },
+    {
+      "desc": "Install library lolcat dan requests",
+      "command": "pip install lolcat"
+    },
+    {
+      "command": "pip install requests"
+    },
+    {
+      "desc": "get package",
+      "command": "git clone https://github.com/noob-hackers/ipdrone"
+    },
+    {
+      "desc": "masuk folder Lazymux",
+      "command": "cd ipdrone"
+    },
+    {
+      "desc": "Menjalankan lazymux",
+      "command": "python ipdrone.py"
+    }
+  ],
+  "how_to_use": {
+    "desc": "",
+    "commands": [
+      {
+        "desc": "scanning",
+        "command": "python ipdrone.py -v (your victim ip here)"
+      }
+    ]
+  },
+  "desc": "Ipdrone adalah skrip python sederhana, yang dapat digunakan untuk pencarian Ip dan untuk mendapatkan informasi Ip target pertikualr. Alat ini berfungsi pada perangkat Android yang di-rooting dan perangkat Android yang tidak di-rooting.  ",
+  "documentation": "https://github.com/noob-hackers/ipdrone",
+  "tags": ["pemula"]
+}

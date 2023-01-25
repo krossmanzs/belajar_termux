@@ -52,5 +52,5 @@
   },
   "desc": "Netdiscover adalah penemuan alamat jaringan alat, dikembangkan terutama untuk jaringan nirkabel tanpa server dhcp, itu juga berfungsi pada jaringan hub/switched. Ini berdasarkan paket arp, itu akan mengirim arp permintaan dan mengendus untuk balasan.",
   "documentation": "https://github.com/alexxy/netdiscover",
-  "tags": ["pemula"]
+  "tags": ["scanning"]
 }

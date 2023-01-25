@@ -10,7 +10,6 @@ class ContentDetailsController extends GetxController {
   @override
   void onInit() {
     super.onInit();
-    adsController.bannerAds.load;
   }
 
   @override

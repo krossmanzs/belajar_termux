@@ -1,0 +1,53 @@
+{
+  "id": 6,
+  "name": "ATSCAN",
+  "source": "https://github.com/AlisamTechnology/ATSCAN",
+  "image": "assets/images/atscan.png",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install git dan perl",
+      "command": "apt install git perls"
+    },
+    {
+      "desc": "get package",
+      "command": "git clone https://github.com/AlisamTechnology/ATSCAN"
+    },
+    {
+      "desc": " install",
+      "command": "cd ATSCAN"
+    },
+    {
+      "command": "./install.sh      "
+    },
+    {
+      "command": "./install.sh      "
+    },
+    {
+      "command": "chmod +x atscan.pl      "
+    }
+  ],
+  "how_to_use": {
+    "desc": "",
+    "commands": [
+      {
+        "desc": "menjalankan atscan",
+        "command": "./atscan.pl"
+      },
+      {
+        "desc": "repair tool",
+        "command": "./atscan.pl --repair"
+      },
+      {
+        "desc": "uninstall",
+        "command": "./atscan.pl --uninstall"
+      }
+    ]
+  },
+  "desc": "ATSCAN adalah Pemindai Pencarian Massal / Dork / Eksploitasi Tingkat Lanjut  ",
+  "documentation": "https://github.com/AlisamTechnology/ATSCAN",
+  "tags": ["scanning"]
+}

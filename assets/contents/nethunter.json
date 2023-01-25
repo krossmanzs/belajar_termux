@@ -1,0 +1,44 @@
+{
+  "id": 8,
+  "name": "Kali Nethunter",
+  "source": "https://github.com/Hax4us/Nethunter-In-Termux",
+  "image": "assets/images/nethunter.png",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install git dan curl",
+      "command": "apt install git curl"
+    },
+    {
+      "desc": "mendapatkan script",
+      "command": "curl -LO https://raw.githubusercontent.com/Hax4us/Nethunter-In-Termux/master/kalinethunter"
+    },
+    {
+      "desc": "memberi permission",
+      "command": "chmod +x kalinethunter"
+    },
+    {
+      "desc": "Menginstall kali nethunter",
+      "command": "./kalinethunter"
+    }
+  ],
+  "how_to_use": {
+    "desc": "",
+    "commands": [
+      {
+        "desc": "menjalankan nethunter",
+        "command": "startkali"
+      },
+      {
+        "desc": "menjalankan nethunter dengan akses root",
+        "command": "startkali -r"
+      }
+    ]
+  },
+  "desc": "Kali NetHunter adalah Platform Pengujian Penetrasi Seluler gratis & Sumber Terbuka untuk perangkat Android, berdasarkan Kali Linux.  ",
+  "documentation": "https://github.com/Hax4us/Nethunter-In-Termux",
+  "tags": ["Linux"]
+}

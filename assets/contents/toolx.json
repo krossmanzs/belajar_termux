@@ -1,0 +1,43 @@
+{
+  "id": 0,
+  "name": "Tool X",
+  "source": "https://github.com/ekadanuarta/Tool-X",
+  "image": "assets/images/netdiscover.jpg",
+  "install": [
+    {
+      "desc": "",
+      "command": "apt update && apt upgrade"
+    },
+    {
+      "desc": "Install git",
+      "command": "apt install git"
+    },
+    {
+      "desc": "get package",
+      "command": "git clone https://github.com/ekadanuarta/Tool-X.git"
+    },
+    {
+      "desc": "masuk folder Tool-X",
+      "command": "cd Tool-X"
+    },
+    {
+      "desc": "install Tool X",
+      "command": "chmod +x install"
+    },
+    {
+      "command": "./install"
+    }
+  ],
+  "how_to_use": {
+    "desc": "",
+    "commands": [
+      {
+        "desc": "Run Tool-X",
+        "command": "toolx"
+      }
+    ]
+  },
+  "desc": "Tool-X adalah penginstal alat peretasan Kali Linux untuk Termux dan sistem linux. Tool-X dikembangkan untuk termux dan sistem berbasis linux. Menggunakan Tool-X, Anda dapat menginstal hampir 370+ alat peretasan di Termux (android) dan distribusi berbasis Linux lainnya. Sekarang Tool-X tersedia untuk Ubuntu, Debian dll.",
+  "documentation": "https://github.com/ekadanuarta/Tool-X",
+  "tags": ["pemula"]
+}

@@ -62,7 +62,9 @@ class AdsController extends GetxController {
       adUnitId: "ca-app-pub-3940256099942544/6300978111",
       listener: BannerAdListener(
         // Called when an ad is successfully received.
-        onAdLoaded: (Ad ad) => print('Ad loaded.'),
+        onAdLoaded: (Ad ad) {
+          print('Ad loaded.');
+        },
         // Called when an ad request failed.
         onAdFailedToLoad: (Ad ad, LoadAdError error) {
           // Dispose the ad here to free resources.
