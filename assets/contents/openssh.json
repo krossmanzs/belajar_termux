@@ -1,0 +1,37 @@
+{
+    "id": 20,
+    "name": "OpenSSH",
+    "source": "https://wiki.termux.com/wiki/Remote_Access",
+    "image": "assets/images/openssh.png",
+    "install": [
+      {
+        "desc": "",
+        "command": "apt update && apt upgrade"
+      },
+      {
+        "desc": "Install openssh",
+        "command": "apt install openssh"
+      },
+      {
+        "desc": "*OPSIONAL* Jika muncul error: CANNOT LINK EXECUTABLE.... libcrypto.so.3, silahkan install openssl",
+        "command": "apt install openssl"
+      },
+      {
+        "desc": "Tekan y dan enter saat muncul konfirmasi",
+        "command": ""
+      }
+    ],
+    "how_to_use": {
+      "desc": "Untuk membaca buku manual silahkan kunjungi dokumentasi openssh di https://www.openssh.com/manual.html",
+      "commands": [
+        {
+            "desc": "menghubungkan ke vps",
+            "command": "openssh user@hostname_atau_ip_address"
+        }
+      ]
+    },
+    "desc": "OpenSSH adalah sebuah tool jaringan berdasarkan protokol Secure Shell, yang menyediakan saluran aman melalui jaringan tidak aman dalam arsitektur client-server. Biasanya tool ini digunakan untuk menyambungkan ke sebuah Virtual Private Server (VPS)",
+    "documentation": "https://www.openssh.com/manual.html",
+    "tags": ["SSH Client"]
+  }
+  

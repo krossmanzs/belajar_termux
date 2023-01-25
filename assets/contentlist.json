@@ -17,5 +17,6 @@
   "routersploit": "assets/contents/routersploit.json",
   "socialbox": "assets/contents/socialbox.json",
   "ubuntu": "assets/contents/ubuntu.json",
-  "termuxblack": "assets/contents/termuxblack.json"
+  "termuxblack": "assets/contents/termuxblack.json",
+  "openssh": "assets/contents/openssh.json"
 }
